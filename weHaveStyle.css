@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #556b2f;
+}
+
+#butt {
+	display: inline-block;
+	height: 3em;
+	width: 10em;
+	text-align: center;
+	border: black 3px solid;
+	border-radius: 10px;
+	font-size: 1.25em;
+	background-color: aliceblue;
+}
+#butt:hover, #butt:active , #butt:focus  {
+	border: darkblue 3px dashed;
+	border-radius: 20px;
+	background-color: #2df200;
+	cursor:pointer;
+}
+
+div{
+display:flex;
+justify-content:center;
+}
+
+div + div{
+justify-content:center;
+padding-top: 1em;
+}
+
+div > table td{
+border: 1px solid black;
+padding: 5px;
+background-color: wheat;
+}
+
+div > table > thead td{
+background-color: #fff400;
+}
