@@ -1,0 +1,28 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+<title>Our House</title>
+<link rel="stylesheet" type="text/css" href="weHaveStyle.css">
+</head>
+<body>
+ <div>
+ <span id="butt" >
+  Click on me ;-P I like it, Ahhhh!!!!!
+</span>
+</div>
+<div>
+<table id="house">
+<thead></thead>
+<tbody></tbody>
+</table>
+<div>
+ <script src="jsonRetrieverTableFiller.js"></script> 
+<script type="text/javascript">
+var myObj = new retrieveFiller("house");
+document.getElementById("butt").onclick = function() {
+  myObj.getDataFromHouse('adress');
+};
+</script>
+
+</body>
+</html> 
