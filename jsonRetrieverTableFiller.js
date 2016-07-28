@@ -12,7 +12,7 @@
     httpRequest.open('GET', url);
     httpRequest.send();
   };
-
+/*Method whitch geting data from server and filling to table*/
   function getDataAndFill() {
     try {
       if (httpRequest.readyState === XMLHttpRequest.DONE) {
